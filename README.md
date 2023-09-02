@@ -12,7 +12,7 @@ In the future, I _might_ implement more features.
 
 Here's how the project looks like:
 
-![Get Recced HAHA](https://github.com/your-username/your-repo/raw/main/path/to/your-gif.gif)
+![Get Recced HAHA]([https://github.com/your-username/your-repo/raw/main/path/to/your-gif.gif](https://github.com/maangaipuncture/Get-Recced/blob/main/GETRECCED!!%20-%20Made%20with%20Clipchamp.gif))
 
 ## Installation
 

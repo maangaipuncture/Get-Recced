@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+
+/* Apply a CSS reset selectively to avoid interference */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bodyplace {
+  margin-inline: 25px;
+}
+
+/* Styles for your .App component */
+.App {
+  font-family: 'Inter', sans-serif;
+  color: aliceblue;
+  margin-block: 0px;
+  padding-inline: 0px;
+  background-color: #14181C;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5.5%;
+  margin-bottom: 3%;
+  background-color:#4A5969;
+}
+
+.logo {
+  height: 4%;
+  width: 4%;
+}
+
+/* Styles for headings within .App */
+h1, h2, h3 {
+  margin: 0px;
+  padding-block: 5px;
+  padding-inline: 55px;
+}
+
+h1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1.8%;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+/* Styles for the search bar */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 3rem;
+  padding-bottom: 5rem;
+  gap: 20px;
+}
+
+/* Styles for input */
+input {
+  border-radius: 15px;
+  border-color: #00e054;
+  border-style: dotted;
+  padding: 10px;
+  width: 55%;
+  height: 20px;
+  font-family: 'Inter';
+  font-size: 12pt;
+}
+
+/* Styles for button */
+button {
+  background-color: #00e054;
+  font-family: 'Helvetica Neue', sans-serif;
+  width: 25%;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 15px;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
+/* Styles for the recommended movie section */
+.recctitle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Styles for truncated text */
+.truncate {
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+/* Styles for movie posters */
+.movieposter {
+  height: 200px;
+  width: 150px;
+  border-radius: 4px;
+  border: 1px solid #00e054;
+  transition: border .1s linear;
+}
+
+/* Styles for movie posters on hover */
+.movieposter:hover {
+  transform: scale(1.1);
+  animation-delay: 2s;
+  border: 4.2px solid #00e054;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}

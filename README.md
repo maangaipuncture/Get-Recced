@@ -27,7 +27,7 @@ In the future, I _might_ implement more features. User profiles, downloadable li
 - Obtain an API Key from TMDb's website and replace wherever mentioned in App.jsx
 - Open two seperate terminals.
 - On terminal 1, run the frontend ReactJS server using `npm start`.
-- On terminal 2, run the ML Python API server using `python -m uvicorn main:test --reload`.
+- On terminal 2, run the ML Python API server using `python -m uvicorn test:app --reload`.
 - Access the application in your web browser at `http://localhost:3000`.
 
 ## Contributions
